@@ -1,0 +1,6 @@
+{
+    "namespace": "library",
+    "icon": "assets/Magic_Book.png",
+    "setup": "setup.mjs",
+    "load": ["data.json"]
+  }

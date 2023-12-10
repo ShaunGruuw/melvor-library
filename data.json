@@ -1,0 +1,37 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "namespace": "library",
+    "data": {
+      "items": [
+        {
+            "id": "Magic_Book",
+            "name": "Magic Book",
+            "category": "Combat",
+            "type": "Shield",
+            "media": "assets/Magic_Book.png",
+            "ignoreCompletion": false,
+            "obtainFromItemLog": false,
+            "golbinRaidExclusive": false,
+            "sellsFor": 100,
+            "tier": "none",
+            "validSlots": [
+              "Shield"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [
+              {
+                "skillID": "melvorD:Magic",
+                "level": 5,
+                "type": "SkillLevel"
+              }
+            ],
+            "equipmentStats": [
+            ],
+            "modifiers": {
+                "increasedMagicMaxHit": 25
+            },
+            "itemType": "Equipment"
+          }
+      ]
+    }
+  }
